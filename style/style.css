@@ -2,25 +2,27 @@
     padding: 0;
     margin: 0;
     vertical-align: baseline;
-    list-style: none;
     border: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-
 }
 
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(118, 173, 255);
+    background-color: rgb(0, 0, 0);
     height: 70px;
     padding: 1rem;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+}
+
+header li {
+    list-style: none;
 }
 
 #logo{
@@ -31,11 +33,10 @@ header{
     background: none;
 }
 
-
 #menu{
     display: block;
     position: absolute;
-    background-color: rgb(118, 173, 255);
+    background-color: rgba(128, 179, 255, 0);
     height: 0px;
     width: 50%;
     top: 70px;
@@ -50,16 +51,26 @@ header{
 
 #nav.active #menu{
     visibility: visible;
-    height: calc(50vh - 70px);
+    height: 12rem;
 }
 
-#menu a{
+#menu li a{
     display: block;
     border-bottom: 2px solid rgba(0, 0, 0, .05);
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 1rem 0;
 }
+
+#sobre h1{
+    color: rgb(0, 0, 0);
+}
+
+#sobre div ul li {
+    list-style: circle;
+}
+
+
 
 @media(min-width: 600px) {
     #btnMobile{
