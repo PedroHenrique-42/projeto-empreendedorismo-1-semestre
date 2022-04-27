@@ -7,7 +7,10 @@
 }
 
 body{
-    background-color: rgb(173, 199, 255);
+    background: url("../img/sust2.jpeg") no-repeat center fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header{
@@ -16,6 +19,7 @@ header{
     justify-content: space-between;
     background-color: rgb(0, 0, 0);
     height: 70px;
+    width: 100%;
     padding: 1rem;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -72,8 +76,13 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    width: 90%;
     height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* background-color: rgba(255, 255, 255, 0.68); */
+    /* background-color: rgba(255, 255, 255, 0.605); */
+    background-color: rgba(255, 255, 255, 0.734);
 }
 
 section h1{
@@ -86,6 +95,7 @@ section ul{
 }
 
 section ul li{
+    font-weight: 400;
     font-size: 1.4rem;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: .5rem 0;
@@ -97,8 +107,8 @@ footer{
     justify-content: center;
     background-color: black;
     height: 4rem;
+    width: 100%;
     color: white;
-    margin-top: 2rem;
 }
 
 footer ul{
@@ -157,4 +167,18 @@ footer ul li a{
         border-radius: 10px;
     }
     
+    body{
+        background: url("../img/sust2.jpeg") no-repeat center fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+        background-color: rgba(255, 255, 255, 0.734);
+    }
 }
