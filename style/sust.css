@@ -12,7 +12,6 @@ body{
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 header{
@@ -81,7 +80,6 @@ section {
     width: 90%;
     height: auto;
     padding-top: 1rem;
-    padding-bottom: 1rem;
     /* background-color: rgba(255, 255, 255, 0.68); */
     /* background-color: rgba(255, 255, 255, 0.605); */
     background-color: rgba(255, 255, 255, 0.734);
