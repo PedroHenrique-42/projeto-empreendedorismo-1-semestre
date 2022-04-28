@@ -95,12 +95,17 @@ footer ul li a{
 } */
 
 @media(min-width: 600px) {
+    header{
+        align-items: center;
+    }
+
     #btnMobile{
         display: none;
     }
 
     #menu{
         display: flex;
+        align-items: center;
         flex-direction: row;
         gap: 1rem;
         position: initial;
@@ -111,7 +116,7 @@ footer ul li a{
         z-index: 1000;
         border-radius: 0;
         visibility: visible;
-        transition: 0;
+        transition: 0s;
         overflow: hidden;
         text-align: center;
     }
