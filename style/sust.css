@@ -10,7 +10,6 @@ body{
     background: url("../img/sust2.jpeg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-    background-origin: border-box;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,8 +81,6 @@ section {
     width: 90%;
     height: auto;
     padding-top: 1rem;
-    /* background-color: rgba(255, 255, 255, 0.68); */
-    /* background-color: rgba(255, 255, 255, 0.605); */
     background-color: rgba(255, 255, 255, 0.734);
 }
 
@@ -135,7 +132,6 @@ footer ul li a{
     }
 
     #menu{
-        display: flex;
         flex-direction: row;
         gap: 1rem;
         position: initial;
@@ -171,6 +167,7 @@ footer ul li a{
     
     body{
         background: url("../img/sust2.jpeg") no-repeat center fixed;
+        background-size: cover;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -182,5 +179,29 @@ footer ul li a{
         align-items: center;
         width: 80%;
         background-color: rgba(255, 255, 255, 0.734);
+    }
+}
+
+@media(min-width: 2000px){
+    body, html{
+        height: 100%;
+    }
+
+    body{
+        align-items: center;
+        justify-content: center;
+        background: url("../img/sust2.jpeg") no-repeat center fixed;
+        background-size: cover;
+    }
+
+    section{
+        font-size: 3rem;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    section ul li{
+        font-size: 2rem;
     }
 }
