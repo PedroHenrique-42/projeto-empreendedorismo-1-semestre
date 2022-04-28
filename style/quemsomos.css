@@ -10,64 +10,6 @@ body{
     background-color: rgb(173, 199, 255); 
 }
 
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(0, 0, 0);
-    height: 70px;
-    padding: 1rem;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-header li {
-    list-style: none;
-}
-
-#logo{
-    width: 10rem;
-}
-
-#btnMobile{
-    color: white;
-    background: none;
-}
-
-#menu{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    position: absolute;
-    background-color: rgb(0, 0, 0);
-    height: 0px;
-    width: 50%;
-    top: 70px;
-    right: 0;
-    z-index: 1000;
-    border-radius: 0 0 0 10px;
-    visibility: hidden;
-    transition: .6s;
-    overflow: hidden;
-    text-align: center;
-    font-size: .9rem;
-}
-
-#nav.active #menu{
-    visibility: visible;
-    height: 8rem;
-}
-
-#menu li a{
-    display: block;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.185);
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 1rem 0;
-}
-
 #sobre{
     display: flex;
     flex-direction: column;
@@ -115,81 +57,7 @@ header li {
     border-radius: 20px;
 }
 
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
-    height: 4rem;
-    color: white;
-    margin-top: 2rem;
-}
-
-footer ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 1rem;
-    list-style: none;
-    width: 100%;
-}
-
-footer ul li a{
-    text-decoration: none;
-    list-style: none;
-    color: white;
-    font-size: .8rem;
-}
-
-
 @media(min-width: 600px) {
-    #btnMobile{
-        display: none;
-    }
-
-    #menu{
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
-        position: initial;
-        height: initial;
-        width: 100%;
-        top: initial;
-        right: initial;
-        z-index: 1000;
-        border-radius: 0;
-        visibility: visible;
-        transition: 0;
-        overflow: hidden;
-        text-align: center;
-    }
-
-    #nav.active #menu{
-        visibility: visible;
-        height: initial;
-    }
-
-    #menu li a{
-        display: block;
-        border-bottom: none;
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        padding: 1rem 0;
-    }
-
-    #menu a{
-        display: block;
-        border-bottom: 0px;
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        padding: .5rem;
-    }
-
-    #menu a:hover{
-        background-color: rgba(255, 255, 255, 0.13);
-        border-radius: 10px;
-    }
-    
     #sobre img{
         height: 18rem;
         width: 30rem;
