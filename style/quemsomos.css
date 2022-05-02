@@ -3,7 +3,8 @@
     margin: 0;
     vertical-align: baseline;
     border: 0;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Kanit', sans-serif;
+    color: black;
 }
 
 html{
@@ -13,29 +14,34 @@ html{
 body{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-direction: column;
     height: 100%;
+    background-image: url("../img/fundosite.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 3rem;
+    width: 80%;
     text-align: center;
     padding: 1rem 1rem;
-    /* background-color: rgb(173, 199, 255);  */
-    background-image: linear-gradient(rgba(184, 249, 255, 0.618), rgb(255, 255, 255), rgb(143, 203, 255));
+    margin: 1rem 1rem;
+    background-color: rgb(255, 255, 255);
+    border: solid rgba(0, 0, 0, 0.55) 1px;
+    border-radius: 5px;   
 }
 
 section div ul{
     width: 80%;
     text-align: left;
-}
-
-section div ul li{
-    font-size: 1.4rem;
 }
 
 section p{
@@ -50,24 +56,34 @@ section div{
     border-radius: 100px;
 }
 
-section div h1{
+section h1{
     color: rgba(0, 0, 0, 0.923);
-    background-color: rgba(255, 255, 255, 0.249);
+    /* background-color: rgba(114, 18, 223, 0.363); cor de fundo do h1 */
     width: 16rem;
     border-radius: 5px;
-    border: 1px rgba(0, 0, 0, 0.362) solid;
+    border: 1px solid rgba(0, 0, 0, 0.723);
 }
 
 section img{
-    height: 10rem;
     width: 15rem;
-    border-radius: 20px;
+    height: 9rem;
+    border-radius: 10px;
 }
 
-@media(min-width: 600px) {
+@media(min-width: 700px) {
+    section{
+        width: 60%;
+    }
+
     section img{
         height: 18rem;
         width: 30rem;
         border-radius: 20px;
+    }
+}
+
+@media(min-width: 1500px){
+    html{
+        font-size: 1.5rem;
     }
 }

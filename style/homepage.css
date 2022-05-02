@@ -3,9 +3,84 @@
     margin: 0;
     vertical-align: baseline;
     border: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+html{
+    height: 100%;
 }
 
 body{
-    background-color: rgb(173, 199, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    /* background: linear-gradient(rgb(203, 255, 254), rgb(255, 255, 255)); */
+    background: url("../img/fundosite.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slider{
+    overflow: hidden;
+    height: 12rem;
+    width: 18rem;
+    margin: 1rem 1rem;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    height: 100%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 700px) {
+    #slider{
+        height: 30rem;
+        width: 40rem;
+    }
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
 }

@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     border: 0;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Kanit', sans-serif;
     box-sizing: border-box;
 }
 
@@ -15,13 +15,12 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-position: top;
+    background-image: url("../img/fundosite.jpg");
+    background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    
-    background-image: url("../img/floresta2.jpg");
 }
 
 section{
@@ -30,7 +29,7 @@ section{
     justify-content: center;
     flex-direction: column;
     flex: 1 0 auto;
-    text-align: left;
+    text-align: center;
     width: 80%;
     padding: 1rem 1rem;
     margin: 1rem 1rem;
@@ -44,36 +43,58 @@ section{
 
 section div{
     margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-#img1{
-    width: 17rem;
-    border-radius: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.159);
+section img{
+    width: 15rem;
+    border-radius: 10px;
 }
 
-section h1{
+section h2{
     text-align: center;
+    color: green;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
 }
 
 section ul{
     list-style: none;
+    width: 80%;
 }
 
 section ul li{
     padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section p{
+    font-size: 1.4rem;
 }
 
 @media(min-width: 600px){
     section{
         width: 60%;
-        font-size: 1.2rem;
     }
 
-    #img1{
-        width: 25rem;
-        height: 15rem;
-        border-radius: 30px;
+    section img{
+        height: 18rem;
+        width: 30rem;
+        border-radius: 20px;
+    }
+
+    section h2{
+        text-align: center;
+        color: green;
+        border: 1px solid black;
+        border-radius: 5px;
+        width: 60%;
     }
 }
 
