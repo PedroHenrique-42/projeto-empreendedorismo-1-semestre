@@ -35,7 +35,7 @@ body{
     border: 2px solid white;
     width: 18rem;
     height: 30rem;
-    margin: 1rem 1rem;
+    /* margin: 1rem 1rem; */
     overflow: hidden;
     border-radius: 10px;
 }
