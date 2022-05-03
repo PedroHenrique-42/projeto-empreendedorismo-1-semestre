@@ -18,6 +18,7 @@ body{
     align-items: center;
     height: 100%;
     background-image: linear-gradient(to right ,rgb(0, 18, 54), rgb(9, 6, 195), rgb(34, 148, 255), rgb(9, 6, 195), rgb(0, 18, 54));
+    /* background: linear-gradient(rgb(94, 164, 255), rgb(255, 255, 255), rgb(52, 184, 255)); */
     /* background-image: linear-gradient(to right ,rgb(5,53,62), rgb(12, 160, 146), white, rgb(12, 160, 146), rgb(5,53,62)); */
     /* background-image: url("../img/fundosite.jpg");
     background-position: center;
@@ -32,12 +33,12 @@ body{
     justify-content: space-between;
     position: relative;
     background: #000116;
-    border: 2px solid white;
-    width: 18rem;
+    border: 8px solid rgb(255, 255, 255);
+    width: 22rem;
     height: 30rem;
-    /* margin: 1rem 1rem; */
+    margin: 1rem 1rem;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 5px;
 }
   
 .slider .slide{
