@@ -33,8 +33,8 @@ body{
     position: relative;
     background: #000116;
     border: 2px solid white;
-    width: 20rem;
-    height: 18rem;
+    width: 16rem;
+    height: 30rem;
     margin: 1rem 1rem;
     overflow: hidden;
     border-radius: 10px;
@@ -74,7 +74,7 @@ body{
   
 .prev-btn, .next-btn{
     z-index: 999;
-    font-size: 1em;
+    font-size: .5em;
     color: #222;
     background: rgba(255, 255, 255, 0.8);
     padding: 10px;
@@ -91,10 +91,13 @@ body{
     border-bottom-left-radius: 3px;
 }
 
-@media (min-width: 600px){
+@media (min-width: 650px){
     .slider{
-        width: 35rem;
-        height: 40rem;
+        width: 30rem;
+        height: 20rem;
+    }
+    .prev-btn, .next-btn{
+        font-size: 1em;
     }
 }
 
@@ -108,5 +111,9 @@ body{
 @media (min-width: 1500px){
     html{
         font-size: 2rem;
+    }
+    .slider{
+        width: 55rem;
+        height: 30rem;
     }
 }
