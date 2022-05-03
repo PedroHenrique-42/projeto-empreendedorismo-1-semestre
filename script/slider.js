@@ -64,7 +64,7 @@
 
         slides[slideNumber].classList.add("active");
         slideIcons[slideNumber].classList.add("active");
-      }, 14000);
+      }, 7000);
     }
     repeater();
 
