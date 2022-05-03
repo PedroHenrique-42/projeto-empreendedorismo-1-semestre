@@ -3,7 +3,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    height: 75px;
+    height: 35px;
     background-color: black;
     width: 100%;
 }

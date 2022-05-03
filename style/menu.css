@@ -90,3 +90,9 @@ header li {
     }
     
 }
+
+@media (min-width: 1500px){
+    header{
+        height: 150px;
+    }
+}

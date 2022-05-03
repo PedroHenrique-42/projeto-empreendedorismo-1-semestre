@@ -17,11 +17,12 @@ body{
     align-items: center;
     flex-direction: column;
     height: 100%;
-    background-image: url("../img/fundosite.jpg");
+    background-image: linear-gradient(to right ,rgb(0, 18, 54), rgb(9, 6, 195), rgb(34, 148, 255), rgb(9, 6, 195), rgb(0, 18, 54));
+    /* background-image: url("../img/fundosite.jpg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 section{
