@@ -46,7 +46,7 @@ header li {
 
 #nav.active #menu{
     visibility: visible;
-    height: 8rem;
+    height: 11rem;
 }
 
 #menu li a{

@@ -4,7 +4,7 @@
     vertical-align: baseline;
     border: 0;
     font-family: 'Kanit', sans-serif;
-    color: black;
+    box-sizing: border-box;
 }
 
 html{
@@ -13,9 +13,9 @@ html{
 
 body{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
     height: 100%;
     background-image: linear-gradient(to right ,rgb(0, 18, 54), rgb(9, 6, 195), rgb(34, 148, 255), rgb(9, 6, 195), rgb(0, 18, 54));
 }
@@ -28,58 +28,44 @@ section{
     gap: 3rem;
     width: 80%;
     text-align: center;
-    padding: 1rem 1rem;
+    padding: 1rem;
     margin: 1rem 1rem;
     background-color: rgb(255, 255, 255);
     border: solid rgba(0, 0, 0, 0.55) 1px;
     border-radius: 5px;   
 }
 
-section div ul{
-    width: 80%;
-    text-align: left;
-}
-
-section p{
-    width: 80%;
-    font-size: 1.4rem;
-}
-
-section div{
+form{
     display: flex;
+    gap: 1rem;
     flex-direction: column;
-    align-items: center;
-    border-radius: 100px;
-}
-
-section h1{
-    color: rgba(0, 0, 0, 0.923);
-    /* background-color: rgba(114, 18, 223, 0.363); cor de fundo do h1 */
-    width: 16rem;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.723);
-}
-
-section img{
-    width: 15rem;
-    height: 9rem;
+    justify-content: left;
+    border: 1px solid black;
     border-radius: 10px;
+    padding: 1rem 1rem;
 }
 
-@media(min-width: 700px) {
+#mensagem{
+    padding: 7rem .8rem;
+}
+
+form input{
+    border: 1px solid black;
+    padding: .8rem;
+}
+
+@media (min-width: 850px) {
     section{
-        width: 60%;
+        width: 50%;
+        padding: 3rem 1rem;
     }
-
-    section img{
-        height: 18rem;
-        width: 30rem;
-        border-radius: 20px;
+    form{
+        padding: 1rem 3rem;
     }
 }
 
-@media(min-width: 1500px){
-    html{
-        font-size: 1.5rem;
+@media (min-width: 1500px) {
+    section{
+        font-size: 4rem;
     }
 }

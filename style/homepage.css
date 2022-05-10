@@ -18,13 +18,6 @@ body{
     align-items: center;
     height: 100%;
     background-image: linear-gradient(to right ,rgb(0, 18, 54), rgb(9, 6, 195), rgb(34, 148, 255), rgb(9, 6, 195), rgb(0, 18, 54));
-    /* background: linear-gradient(rgb(94, 164, 255), rgb(255, 255, 255), rgb(52, 184, 255)); */
-    /* background-image: linear-gradient(to right ,rgb(5,53,62), rgb(12, 160, 146), white, rgb(12, 160, 146), rgb(5,53,62)); */
-    /* background-image: url("../img/fundosite.jpg");
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
   
 .slider{
@@ -114,7 +107,7 @@ body{
         font-size: 2rem;
     }
     .slider{
-        width: 60rem;
-        height: 35rem;
+        width: 40rem;
+        height: 30rem;
     }
 }
