@@ -45,6 +45,10 @@ form{
     padding: 1rem 1rem;
 }
 
+h1{
+    text-align: left;
+}
+
 #mensagem{
     padding: 7rem .8rem;
 }
@@ -64,8 +68,8 @@ form input{
     }
 }
 
-@media (min-width: 1500px) {
-    section{
-        font-size: 4rem;
+@media(min-width: 1500px){
+    html{
+        font-size: 1.5rem;
     }
 }
