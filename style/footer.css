@@ -25,11 +25,11 @@ footer div{
     gap: 5rem;
 }
 
-footer ul li a{
+footer ul li{
     text-decoration: none;
     list-style: none;
     color: white;
-    font-size: .7rem;
+    font-size: .6rem;
 }
 
 footer div img{
@@ -39,7 +39,7 @@ footer div img{
 
 @media (min-width: 650px){
     footer{
-        height: 80px;
+        height: 95px;
         width: 100%;
     }
     footer div{
@@ -49,6 +49,12 @@ footer div img{
     footer div img{
         height: 2rem;
         width: 2rem;
+    }
+    footer ul li{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-size: 1rem;
     }
 }
 
@@ -60,7 +66,6 @@ footer div img{
 
 @media (min-width: 1500px){
     footer{
-        font-size: 1rem;
         height: 130px;
     }
 }
